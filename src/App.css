@@ -1,4 +1,37 @@
 .App {
   text-align: center;
   display: flex;
+  width:50%;
+  margin:0 auto;
+  flex-direction:column;
+  gap:2em;
+  background-color:lightskyblue;
+}
+
+.header{
+  margin:0 auto;
+  border-bottom:2px solid black;
+  padding:10px;
+}
+
+
+.contact {
+  background-color:lightpink;
+  border:1px solid black;
+  width:60%;
+  display:flex;
+  flex-direction:row;
+  margin:0 auto;
+  justify-content:space-between;
+  padding:10px;
+  border-radius:10px;
+
+}
+
+.contact__text {
+  padding:5px;
+}
+.img {
+  width:100%;
+  border-radius:60%;
 }
